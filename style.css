@@ -10,12 +10,11 @@
 }
 
 body{
-    
     background-color: white;
     border: 30px solid #F3F5F7;
     border-radius: 80px;
-    padding: 75px 75px;
     width:100%;
+    padding-bottom: 10%;
     height: 100vh;
     font-family: 'Poppins', sans-serif;
     
@@ -54,9 +53,10 @@ body{
     flex-direction: column;
     text-align: center;
     justify-content: center;
+    padding-bottom: 50px;
 }
 h1{
-    font-size: 50px;
+    font-size: 60px;
     width: 100%;
     height: 31px;
     font-weight: bold;
@@ -73,7 +73,7 @@ p{
     line-height: 128.91%;
     text-align: center;
     color: #000000;
-    margin-top: 36px;
+    margin-top: 54px;
   
 }
 
@@ -82,15 +82,15 @@ p{
     height: 20px;
     display: flex;
     align-items: center;
-    column-gap: 17px;
+    column-gap: 24px;
     justify-content: center;
 }
 
 .one{
     border: 1px solid #92E3A9;
     border-radius: 50%;
-    width: 24px;
-    height: 24px;
+    width: 30px;
+    height: 30px;
     background: #92E3A9;
     
 
@@ -98,8 +98,8 @@ p{
 .two{
     border: 1px solid #000000;
     border-radius: 50%;
-    width: 24px;
-    height: 24px;
+    width: 30px;
+    height: 30px;
     background: white;
    
 
@@ -108,16 +108,16 @@ p{
 .three{
     border: 1px solid #000000;
     border-radius: 50%;
-    width: 24px;
-    height: 24px;
+    width: 30px;
+    height: 30px;
     background: white;
 
 }
 .one-deli{
     border: 1px solid #000000;
     border-radius: 50%;
-    width: 24px;
-    height: 24px;
+    width: 30px;
+    height: 30px;
     background: white;
     
 
@@ -125,8 +125,8 @@ p{
 .two-deli{
     border: 1px solid #92E3A9;
     border-radius: 50%;
-    width: 24px;
-    height: 24px;
+    width: 30px;
+    height: 30px;
     background: #92E3A9;
    
 
@@ -135,23 +135,23 @@ p{
 .three-deli{
     border: 1px solid #000000;
     border-radius: 50%;
-    width: 24px;
-    height: 24px;
+    width: 30px;
+    height: 30px;
     background: white;
 }
 .one-buy{
     border: 1px solid #000000;
     border-radius: 50%;
-    width: 24px;
-    height: 24px;
+    width: 30px;
+    height: 30px;
     background: white;
 
 }
 .two-buy{
     border: 1px solid #000000;
     border-radius: 50%;
-    width: 24px;
-    height: 24px;
+    width: 30px;
+    height: 30px;
     background: white;
 
 
@@ -159,12 +159,12 @@ p{
 .three-buy{
     border: 1px solid #92E3A9;
     border-radius: 50%;
-    width: 24px;
-    height: 24px;
+    width: 30px;
+    height: 30px;
     background: #92E3A9;
 
 }
-.botao{
+.final{
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -214,7 +214,7 @@ p{
     font-size: 36px;
     line-height: 128.91%;
     justify-content: center;
-    margin: 26px;
+    margin: 50px;
     text-align: center;
     color: #92E3A9;
 }
